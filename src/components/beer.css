@@ -1,0 +1,65 @@
+.beer-container {
+  /* width: 25%; */
+  width: 495px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  padding: 10px;
+  background-color: var(--beer-yellow);
+}
+
+.beer-container-left {
+  flex: 1;
+  margin-right: 10px;
+  background-color: var(--beer-yellow);
+  display: flex;
+  justify-content: center;
+}
+
+.beer-container-left img {
+  max-width: 90%;
+  height: 500px;
+  background-color: var(--beer-yellow);
+}
+
+.beer-container-right {
+  flex: 1;
+  background-color: var(--beer-yellow);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beer-container-right * {
+  background-color: var(--beer-yellow);
+}
+
+.beer-container-right span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.beer-container-right p {
+  margin: 5px 0px;
+}
+
+.beer-container-right button {
+  margin-left: 0 auto ;
+  height: 30px;
+  width: 100px;
+  padding: 0px 10px 0px 10px;
+  background-color: #30a1bd;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
