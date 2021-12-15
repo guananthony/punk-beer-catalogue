@@ -125,6 +125,16 @@
 }
 
 @media (max-width: 768px) {
+  .beerPage-container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .beerPage-image {
+    width: 100%;
+    height: auto;
+  }
+
   .beerPage-left {
     display: none;
   }
