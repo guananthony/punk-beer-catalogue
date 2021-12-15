@@ -31,7 +31,7 @@ const Beer = ({
         </ul> */}
         <button onClick={() => {
           navigate(`/BeerPage/${id}`)
-        }}>More Info</button>
+        }}>Beer Deets</button>
       </div>
     </div>
   )

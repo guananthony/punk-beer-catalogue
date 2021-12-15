@@ -64,8 +64,14 @@
   background-color: #30a1bd;
   border: none;
   border-radius: 5px;
-  color: white;
+  color: #262626;
   font-weight: 500;
   font-size: 15px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.beer-container-right button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
 }

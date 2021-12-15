@@ -106,11 +106,13 @@
   background-color: #3aafa9;
   border: none;
   border-radius: 10px;
-  color: white;
+  color: #262626;
   font-weight: 500;
   font-size: 20px;
   cursor: pointer;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+
 }
 
 .beerPage-routeButton:active {
@@ -118,8 +120,8 @@
 }
 
 .beerPage-routeButton:hover {
-  transform: scale(1.1);
-  transition: all ease-in-out 0.2s;
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 
 @media (max-width: 768px) {
