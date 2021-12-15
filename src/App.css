@@ -110,17 +110,16 @@
     box-sizing: border-box;
     margin: 10px;
   }
-
-  .beerPage-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-
 }
 
 @media screen and (max-width: 1024px) {
   .beers-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .beers-container {
+    grid-template-columns: 1fr;
   }
 }
